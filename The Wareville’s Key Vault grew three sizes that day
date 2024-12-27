@@ -1,1 +1,16 @@
+Azure services
 
+Show connected users  
+--az ad signed-in-user show
+--az ad user list
+--az ad user list --filter "startsWith('wvusr-', displayName)
+
+
+
+
+Intro to Azure
+Before diving into the Glitch's idea of the attacker's path, let's introduce some of the key concepts that will be covered in the process. We are going to start by introducing Azure. To do that, let's consider why McSkidy is using Azure in the first place.
+
+It all started when McSkidy's role as the cyber security expert of Wareville really started to take off. Before she knew it, McSkidy was in very high demand and needed to create all kinds of resources to help her organise her duties; these included a web application to handle appointment making, multiple machines running for investigations, and more machines running for evidence storing and analysis. McSkidy hosted and managed all of these machines herself, that is, on-prem (on-premises). This initially wasn't a massive issue because, after all, she wasn't a corporation but just helping the citizens of Wareville with cyber security matters.
+
+However, as time went on, McSkidy ran into issues during peak times when she would receive many requests for help, and therefore needed to process more evidence. All of this increased demand meant McSkidy had to scale up her resources to handle the load. To put a long story short, this was a lot of hassle for McSkidy. She wished there was a way for someone to handle her infrastructure on her behalf, especially when scaling her resources up (during peak times) and down (when they resumed). That's when Azure came to the rescue.
